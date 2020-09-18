@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Adicionar Produto</title>
+    <title>Venda de produto</title>
   </head>
   <body>
     <link rel="stylesheet" href="style.css" />
@@ -20,34 +20,36 @@
       <p class="header">Labenu Jewelry Co.</p>
     </div>
 
-    <h2 id="fun">Adicionar Produto</h2>
+    <h2 id="fun">Vender produto</h2>
     <form id="adicionar" action="#">
-      <div>
-        <label for="link-foto">Link para foto: </label>
-        <input type="url" id="link-foto" name="link-foto" />
+      <form> 
+        <label for="pagamento">Escolha a joia</label>
+        <select name="Forma de pagamento">
+        <option value="diamante">Diamante
+        <option value="esmeralda">Esmeralda
+          <option value="rubi">Rubi
+            <option value="quartzo">Quartzo
+            <option value="ametista">Ametista
+        </select>
+        </form>
       </div>
-
-      <div>
-        <label for="descricao">Descrição do produto: </label>
-        <!-- Adicione o id apropriado para o input abaixo -->
-        <input type="text" id="descrição" name="descrição" />
+        <label id="adicionar" for="preco">Preço (em R$): </label>
+        <input type="number" id="preço" name="preço"/>
       </div>
-
       <div>
-        <label for="preco">Preço (em R$): </label>
-        <!-- Adicione o id apropriado e o type para receber números abaixo -->
-        <input type="number" id="preço" name="preço" />
-      </div>
-
-      <div>
-        <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-        <label>Quantidade disponível: </label>
+        <label id="adicionar">Quantidade: </label>
         <input type="number" id="quantidade" name="quantidade" />
       </div>
+      <form id="adicionar">
+        <label for="pagamento">Forma de pagamento:</label>
+        <select name="Forma de pagamento">
+        <option value="dinheiro">Dinheiro
+        <option value="cartão">Cartão
+        </select>
+        </form>
 
       <div class="form-add">
-        <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-        <button type="submit">Adicionar</button>
+        <button type="submit">Vender</button>
       </div>
     </form>
     <div id="redes">

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  background: #fff689;
+  padding: 50px;
+}
+
+#header1 {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.btn {
+  font-family: monospace;
+  text-align: right;
+  color: black;
+  font-size: 15px;
+  background: #fff689;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.joia {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  background-size: contain;
+  font-family: monospace;
+}
+
+#redes {
+  font-family: monospace;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #fffaad;
+}
+
+#icone {
+  width: 3%;
+  height: 3%;
+}
+
+#fun {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.funcionario {
+  font-size: 25px;
+}
+
+#adicionar {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#fotos {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.imagens {
+  height: 200px;
+  width: 200px;
+  padding-top: 20px;
+  padding: 50px;
+}
