@@ -62,3 +62,15 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+#fotos {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.imagens {
+  height: 200px;
+  width: 200px;
+  padding-top: 20px;
+  padding: 50px;
+}
