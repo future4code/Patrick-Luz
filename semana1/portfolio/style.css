@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+ul li {
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  font-family: monospace;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Header do portfolio */
+
+.menu-bg {
+  background-color: black;
+}
+
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+}
+
+.menu-logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-logo a:hover {
+  color: rgb(38, 149, 153);
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu-nav a:hover {
+  color: rgb(38, 149, 153);
+}
+
+/* Formulário */
+
+.newsletter {
+  background: black;
+  padding: 10px calc((100% - 960px) / 2);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info {
+  flex: 800px;
+  margin: 1px;
+  text-align: center;
+}
+
+.newsletter-info h1 {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.678);
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+.newsletter-form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: white;
+  font-style: italic;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+
+  background: transparent;
+  padding: 15px 10px;
+  margin: 0px;
+  border-radius: 0px;
+}
+
+.newsletter-form button {
+  flex: 200px;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(38, 149, 153);
+  color: white;
+  margin: 0px;
+  cursor: pointer;
+  border: 0px;
+  padding: 5px;
+}
+
+/* Sobre texto + imagem */
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 36px;
+  margin-bottom: 0.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.sobre-img {
+  flex: 500px;
+  margin: 5px;
+}
+
+/* Adicional para projeto */
+
+.projeto {
+  border-top: 2px solid #ff2415;
+  border-bottom: 2px solid #ff2415;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
