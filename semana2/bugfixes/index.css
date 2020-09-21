@@ -143,6 +143,9 @@ td button {
   border-radius: 5px;
   font-size: 10px;
   color: black;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
 }
 
 #back-button:hover {
@@ -153,4 +156,9 @@ td img {
   background-color: white;
   width: 75px;
   height: 75px;
+}
+
+.tabela {
+  width: 1000px;
+  margin-left: 20vw;
 }
