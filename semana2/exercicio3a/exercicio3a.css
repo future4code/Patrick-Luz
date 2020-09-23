@@ -16,12 +16,18 @@ div {
 }
 
 .green-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: green;
   width: 300px;
   height: 40px;
 }
 
 .yellow-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: yellow;
   width: 800px;
   height: 40px;
@@ -29,6 +35,9 @@ div {
 }
 
 .pink-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: fuchsia;
   display: flex;
   height: 400px;
@@ -36,33 +45,44 @@ div {
 
 #middle-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .blue-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: blue;
   height: 150px;
   width: 683px;
 }
 
 .red-background {
-  background-color: red;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
   height: 75px;
   width: 341px;
 }
 
 .lightgreen-background {
-  background-color: lightgreen;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
   height: 75px;
   width: 341px;
 }
 
 .purple-background {
-  background-color: purple;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
   height: 40px;
   display: 1;
 }
