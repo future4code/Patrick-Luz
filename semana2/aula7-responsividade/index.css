@@ -1,0 +1,147 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  border: none;
+}
+
+#first-block {
+  background-color: red;
+  display: flex;
+  flex: 1;
+  height: 50px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  height: 270px;
+  border: none;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blue-block {
+  background-color: blue;
+  display: flex;
+  width: 30%;
+  margin: 10px;
+}
+
+.yellow-block {
+  background-color: yellow;
+  display: flex;
+  width: 30%;
+  margin: 10px;
+}
+
+.green-block {
+  background-color: green;
+  display: flex;
+  width: 30%;
+  margin: 10px;
+}
+
+.black-block {
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin: 10px;
+  height: 250px;
+}
+
+.white-block {
+  background-color: white;
+  width: 30%;
+  margin: 10px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.white-block2 {
+  background-color: white;
+  width: 30%;
+  margin: 10px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .blue-block,
+  .yellow-block {
+    width: 45%;
+  }
+  .green-block {
+    width: 100%;
+  }
+
+  .white-block {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white-block2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .blue-block,
+  .yellow-block,
+  .green-block,
+  .black-block,
+  .white-block,
+  .white-block2 {
+    width: 100%;
+  }
+  .white-block,
+  .white-block2 {
+    height: 25px;
+  }
+
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+  }
+
+  .black-block {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25px;
+  }
+}
