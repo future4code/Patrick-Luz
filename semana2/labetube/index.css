@@ -1,0 +1,114 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  border: none;
+}
+
+/*a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Nunito";
+  padding-top: 10px;
+}*/
+
+nav {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Nunito";
+  padding-top: 10px;
+}
+p {
+  font-family: "Nunito";
+  text-align: center;
+  padding-top: 1px;
+  font-size: 20px;
+}
+
+#menulogo {
+  font-family: "Nunito";
+  color: white;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+#header1 {
+  background-color: black;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
+}
+
+.container-do-search {
+  margin-top: 25px;
+  height: 100px;
+  color: white;
+}
+.borda {
+  border: none;
+  border-bottom: 2px solid white;
+}
+.icone {
+  height: 12px;
+  color: white;
+  background-color: turquoise;
+}
+.icone:hover {
+  opacity: 0.5;
+}
+.icone:active {
+  opacity: 1;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.container3 {
+  display: flex;
+  height: 100px;
+  background-color: white;
+}
+
+.container4 {
+  background-color: black;
+  height: 75px;
+}
+
+.mediablock {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+
+  text-align: center;
+  margin-bottom: 10px;
+  max-height: 220px;
+}
+
+.foto {
+  display: flex;
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  font-size: 10px;
+}
+
+#rodape {
+  font-size: 20px;
+  padding-top: 25px;
+  color: white;
+}
