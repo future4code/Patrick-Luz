@@ -104,7 +104,10 @@ div {
   }
 
   .white-block {
-    width: 45%;
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .white-block2 {
     width: 90%;
@@ -128,8 +131,16 @@ div {
     height: 25px;
   }
 
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+  }
+
   .black-block {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    height: 25px;
   }
 }
