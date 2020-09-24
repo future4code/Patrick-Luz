@@ -101,7 +101,7 @@ div {
     width: 45%;
   }
   .green-block {
-    width: 95%;
+    width: 100%;
   }
 
   .white-block {
@@ -111,7 +111,7 @@ div {
     align-items: center;
   }
   .white-block2 {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
