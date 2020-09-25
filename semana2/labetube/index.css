@@ -20,6 +20,7 @@ nav {
   font-family: "Nunito";
   padding-top: 10px;
 }
+
 p {
   font-family: "Nunito";
   text-align: center;
@@ -69,7 +70,7 @@ p {
   border: none;
   flex-wrap: wrap;
   padding: 50px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: white;
 }
 
@@ -82,22 +83,22 @@ p {
 .container4 {
   background-color: black;
   height: 75px;
+  bottom: 0;
 }
 
 .mediablock {
   display: flex;
   flex-direction: column;
-  width: 24%;
-
-  text-align: center;
+  width: 25%;
   margin-bottom: 10px;
-  max-height: 220px;
+  height: 250px;
 }
 
 .foto {
   display: flex;
-  max-width: 100%;
-  max-height: 70%;
+  width: 300px;
+  height: 200px;
+  display: flex;
 }
 
 .text {
@@ -108,7 +109,38 @@ p {
 }
 
 #rodape {
+  padding-top: 20px;
   font-size: 20px;
-  padding-top: 25px;
   color: white;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#back-button {
+  background-color: white;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 10px;
+  color: black;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  outline: none;
+}
+#back-button:hover {
+  background-color: #635a3d;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-family: "nunito";
+  margin: auto;
+  margin-top: 20px;
 }
