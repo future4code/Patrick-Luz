@@ -7,13 +7,6 @@ div {
   border: none;
 }
 
-/*a {
-  text-decoration: none;
-  font-size: 30px;
-  font-family: "Nunito";
-  padding-top: 10px;
-}*/
-
 nav {
   text-decoration: none;
   font-size: 30px;
@@ -48,18 +41,22 @@ p {
   height: 100px;
   color: white;
 }
+
 .borda {
   border: none;
   border-bottom: 2px solid white;
 }
+
 .icone {
   height: 12px;
   color: white;
   background-color: turquoise;
 }
+
 .icone:hover {
   opacity: 0.5;
 }
+
 .icone:active {
   opacity: 1;
 }
@@ -133,6 +130,7 @@ p {
   margin-top: 50px;
   outline: none;
 }
+
 #back-button:hover {
   background-color: #635a3d;
 }
