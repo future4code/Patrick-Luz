@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+div {
+  border: none;
+}
+
+a {
+  font-family: "Rubik";
+  text-decoration: none;
+}
+
+ul li {
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Rubik";
+}
+
+/* Header */
+
+.menu {
+  max-width: 95vw;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: black;
+}
+
+.menu-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.menu-logo a:hover {
+  color: rgb(38, 149, 153);
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-family: "Rubik";
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu-nav a:hover {
+  color: rgb(38, 149, 153);
+}
+
+/*Sobre*/
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 400px;
+  margin: 0 10px;
+}
