@@ -27,6 +27,11 @@ ul li {
 
 /* Header */
 
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 .menu {
   max-width: 95vw;
   margin: 0 auto;
@@ -43,8 +48,14 @@ ul li {
 
 .menu-logo {
   font-size: 24px;
-  font-weight: bold;
+
   margin: 0 10px;
+}
+
+.menu-logo a {
+  color: #86b670;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .menu-logo a:hover {
@@ -71,11 +82,9 @@ ul li {
 /*Sobre*/
 
 .sobre {
-  border-top: 2px solid #2c70ff;
-  border-bottom: 2px solid #2c70ff;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -98,6 +107,49 @@ ul li {
 }
 
 .sobre-img {
-  flex: 1 1 400px;
+  flex: 600px;
   margin: 0 10px;
+}
+
+.sobre2-img {
+  padding-top: 100px;
+}
+
+.sobrep {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.p1 {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  color: black;
+  bottom: 100px;
+  left: 10%;
+  font-family: "Rubik";
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer_redes ul li a {
+  display: flex;
+  padding: 10px;
+  padding-left: 300px;
 }
