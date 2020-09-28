@@ -321,4 +321,11 @@ ul li {
     height: 250px;
     width: 100%;
   }
+
+  .foto2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 100vw;
+  }
 }
