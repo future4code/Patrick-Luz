@@ -67,7 +67,7 @@ console.log(numero % 2);
 
 // D = O resultado é = 1
 
-*/
+
 
 // Ex. N° 3
 
@@ -89,3 +89,39 @@ let nome = prompt("Qual seu nome?");
 let email = prompt("Digite seu email?");
 const resultado = `O ${email} foi cadastrado com sucesso. Seja bem vindo ${nome}!`;
 console.log(resultado);
+
+
+
+// Desafio
+
+B)
+let k1 = (-32 * 5) / 9 + 273.15;
+let f1 = 77;
+let resultado = ((f1 - 32) * 5) / 9 + 273.15;
+console.log(resultado);
+
+
+A)
+let f2 = (0 * 9) / 5 + 32;
+let c2 = 80;
+const resultado = (c2 * 9) / 5 + 32;
+console.log(`${resultado}f`);
+
+C)
+
+let f3 = (0 * 9) / 5 + 32;
+let k3 = (0 - 32) * 5 / 9 + 273.15;
+let c3 = 30;
+let resultado3 = (c3 * 9) / 5 + 32;
+let resultado4 = (c3 - 32 * 5) / 9 + 273.15;
+console.log(resultado4 + "k", resultado3 + "F");
+
+D)
+
+let c3 = prompt("Valor em celsius que deseja converter");
+c3 = Number(c3);
+f3 = (c3 * 9) / 5 + 32;
+k3 = ((c3 - 32) * 5) / 9 + 273.15;
+console.log(f3 + "F", k3 + "K");
+
+*/
