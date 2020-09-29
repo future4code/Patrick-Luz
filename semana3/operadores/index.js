@@ -94,14 +94,14 @@ console.log(resultado);
 
 // Desafio
 
-B)
+A)
 let k1 = (-32 * 5) / 9 + 273.15;
 let f1 = 77;
 let resultado = ((f1 - 32) * 5) / 9 + 273.15;
 console.log(resultado);
 
 
-A)
+B)
 let f2 = (0 * 9) / 5 + 32;
 let c2 = 80;
 const resultado = (c2 * 9) / 5 + 32;
@@ -123,5 +123,47 @@ c3 = Number(c3);
 f3 = (c3 * 9) / 5 + 32;
 k3 = ((c3 - 32) * 5) / 9 + 273.15;
 console.log(f3 + "F", k3 + "K");
+
+
+// 2)
+
+
+let qwH = 0.05;
+let residencia = 280;
+console.log(qwH * residencia);
+let percentualDesconto = 0.15;
+console.log(qwH * residencia * (1 - porcentualDesconto));
+
+//3)
+
+a)
+let oneLb = 20;
+let oneG = oneLb * 0.45;
+console.log(`20lb equivalem a ${oneG}kg`);
+
+b)
+let oneOz = 10.5;
+let oneG = oneOz * 0.28;
+console.log(`10.5oz equivalem a ${oneG}g`);
+
+c)
+let oneMi = 100;
+let oneM = oneMi * 1.6;
+console.log(`100mi equivalem a ${oneM}m`);
+
+d)
+let ft = 50;
+let m = ft * 0.3;
+console.log(`50ft equivalem a ${m}m`);
+
+
+
+let gal = 103.56;
+let l = gal * 3.78;
+console.log(`103.56 equivalem a ${l}l`);
+
+let xic = 450;
+let l = xic * 0.25;
+console.log(`450xic equivalem a ${l}l`);
 
 */
