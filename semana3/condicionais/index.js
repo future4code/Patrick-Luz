@@ -105,3 +105,28 @@ if (generoFilme === "fantasia" && valorIngresso < 15) {
 } else {
   console.log("Escolha outro filme :(");
 }
+
+// DESAFIO 1
+
+let generoFilme = prompt(
+  "Qual o genero do filme que você vai assistir?"
+).toLowerCase();
+let valorIngresso = Number(prompt("Qual o valor do ingresso?"));
+
+if (generoFilme === "fantasia" && valorIngresso < 15) {
+  let snack = prompt("Qual snack você quer comer? Pipoca, Chocolate, Doces");
+  console.log(`Bom filme com ${snack}`);
+} else {
+  console.log("Escolha outro filme :(");
+}
+
+let nomeCompleto = prompt("Qual seu nome completo?").toLowerCase();
+let tipoDeJogo = prompt(
+  "Digite IN que indica internacional; e DO indica doméstico"
+).toLowerCase();
+let etapaDoJogo = prompt(
+  "SF indica semi-final; DT indica decisão de terceiro lugar; e FI indica final"
+).toLowerCase();
+let categoria = Number(prompt("Quantidade de ingresso"));
+let valorEmReal = 0;
+let valorEmDolar = valorEmReal * 4.1;
