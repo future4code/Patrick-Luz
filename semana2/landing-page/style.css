@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div {
+  border: none;
+}
+
+a {
+  font-family: "Rubik";
+  text-decoration: none;
+}
+
+ul li {
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Rubik";
+}
+
+/* Header */
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.menu {
+  max-width: 95vw;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: black;
+}
+
+.menu-logo {
+  font-size: 24px;
+
+  margin: 0 10px;
+}
+
+.menu-logo a {
+  color: #86b670;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.menu-logo a:hover {
+  color: rgb(38, 149, 153);
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a {
+  font-family: "Rubik";
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu-nav a:hover {
+  color: rgb(38, 149, 153);
+}
+
+/*Sobre*/
+
+.sobre {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 600px;
+  margin: 0 10px;
+}
+
+.sobre2-img {
+  padding-top: 100px;
+}
+
+.sobrep {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.sobre-fim {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  padding-top: 60px;
+  max-height: 300px;
+  height: 50px;
+}
+
+.p1 {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  color: black;
+  bottom: 100px;
+  left: 10%;
+  font-family: "Rubik";
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.p2 {
+  display: block;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 700px;
+  height: 200px;
+  max-width: 500px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.foto2 {
+  padding-top: 100px;
+  padding-left: 350px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer_redes ul li a {
+  display: flex;
+  padding: 10px;
+  padding-left: 300px;
+}
+
+/* Seguro Digital */
+.seguro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seguro1 {
+  display: flex;
+  flex: 1 1 150px;
+  height: 500px;
+  margin: 10px;
+  font-size: 32px;
+  text-align: center;
+  font-family: "rubik";
+  padding-top: 25px;
+}
+
+.seguro1 p {
+  place-self: center;
+}
+
+.saber-mais {
+  position: absolute;
+  padding-left: 900px;
+  padding-top: 400px;
+}
+
+.saber-mais a {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Rubik";
+  color: blue;
+}
+
+/* Contato */
+
+.contato_form {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.contato_form label {
+  display: block;
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contato_form input {
+  display: block;
+  width: 40%;
+  border: 4px solid #c8ced4;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Rubik";
+}
+
+.contato_form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid#c8ced4;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Rubik";
+}
+
+.contato_form button {
+  background: none;
+}
+
+.btn {
+  border: 3px solid #c8ced4;
+  padding: 10px 30px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding-bottom: 30vh;
+    max-width: 100vw;
+  }
+
+  .responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    min-height: 25vh;
+  }
+
+  .p1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 60%;
+    color: black;
+    bottom: 120px;
+    left: 5%;
+    font-family: "Rubik";
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .sobre-info h1 {
+    font-size: 22px;
+  }
+
+  .sobre-img {
+    max-width: 100%;
+  }
+
+  .sobrefooter {
+    max-width: 100%;
+    padding-top: 50px;
+  }
+
+  .seguro1 {
+    font-size: 20px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .foto2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    max-width: 100vw;
+  }
+}
